@@ -18,7 +18,7 @@ class ComposerStaticInit0a27f35f6e47f729930d69fe324d7e3d
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '32dcc8afd4335739640db7d200c1971d' => __DIR__ . '/..' . '/symfony/polyfill-apcu/bootstrap.php',
-        '719971e375036615a0685b6fb054583d' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php',
+        '51d6da4261fa57c1486d5f4981769be2' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -55,6 +55,10 @@ class ComposerStaticInit0a27f35f6e47f729930d69fe324d7e3d
         'I' => 
         array (
             'Incenteev\\ParameterHandler\\' => 27,
+        ),
+        'F' => 
+        array (
+            'FOS\\UserBundle\\' => 15,
         ),
         'D' => 
         array (
@@ -152,6 +156,10 @@ class ComposerStaticInit0a27f35f6e47f729930d69fe324d7e3d
         'Incenteev\\ParameterHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
+        ),
+        'FOS\\UserBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofsymfony/user-bundle',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (
